@@ -2,6 +2,8 @@ package org.pltw.examples.collegeapp;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -69,11 +71,19 @@ public class ApplicantActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Fragment contentFragment;
+        contentFragment = null;
 
         if (id == R.id.family_member) {
-            // Handle the camera action
-        } else {
+            contentFragment = new FamilyMemberFragment();
+        } else if(id == R.id.profile){
 
+            contentFragment = new ProfileFragment();
+        }
+        if (contentFragment != null) {
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, contentFragment);
+            ft.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
