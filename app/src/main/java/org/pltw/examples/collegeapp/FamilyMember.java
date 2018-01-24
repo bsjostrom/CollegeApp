@@ -1,12 +1,13 @@
 package org.pltw.examples.collegeapp;
 
 /**
- * Created by 20sjobai on 12/20/2017.
+ * Created by 20sjobai on 1/24/2018.
  */
 
-public class Profile {
-    private String firstName;
+public class FamilyMember {
+
     private String lastName;
+    private String firstName;
 
     public String getFirstName() {
         return firstName;
@@ -23,13 +24,8 @@ public class Profile {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
-    public Profile() {
-        firstName = "Alan";
-        lastName = "Turing";
+    public FamilyMember() {
+        firstName = "Ada";
+        lastName = "Lovelace";
     }
-
-
 }
-
-
