@@ -13,7 +13,7 @@ import android.widget.TextView;
  * Created by 20sjobai on 12/20/2017.
  */
 
-public class FamilyMemberFragment extends android.support.v4.app.Fragment {
+public class GuardianFragment extends android.support.v4.app.Fragment {
     // These are the controls, we will wire these up in onCreateView
    private TextView mFirstName;
    private TextView mLastName;
@@ -22,7 +22,7 @@ public class FamilyMemberFragment extends android.support.v4.app.Fragment {
 
    private Button mSubmitButton;
 
-   private FamilyMember mFamilyMember;
+   private FamilyMember mGuardian;
 
     @Override
    public View onCreateView(LayoutInflater inflater, ViewGroup view, Bundle bundle) {
@@ -43,10 +43,10 @@ public class FamilyMemberFragment extends android.support.v4.app.Fragment {
        mFirstName = (TextView) rootView.findViewById(R.id.first_name_textview);
        mLastName =  (TextView) rootView.findViewById(R.id.last_name_textview);
 
-       mFamilyMember = new FamilyMember();
+       mGuardian = new Guardian();
 
-       mFirstName.setText(mFamilyMember.getFirstName());
-       mLastName.setText(mFamilyMember.getLastName());
+       mFirstName.setText(mGuardian.getFirstName());
+       mLastName.setText(mGuardian.getLastName());
 
        return rootView;
     }

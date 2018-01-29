@@ -4,7 +4,7 @@ package org.pltw.examples.collegeapp;
  * Created by 20sjobai on 1/24/2018.
  */
 
-public class FamilyMember {
+public abstract class FamilyMember {
 
     private String lastName;
     private String firstName;

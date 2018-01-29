@@ -4,7 +4,7 @@ package org.pltw.examples.collegeapp;
  * Created by 20sjobai on 12/20/2017.
  */
 
-public class Guardian {
+public class Guardian extends FamilyMember{
     private String firstName;
     private String lastName;
 
@@ -23,4 +23,11 @@ public class Guardian {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+    public Guardian() {
+        firstName = "Grace";
+        lastName = "Hopper";
+    }
+
+
 }

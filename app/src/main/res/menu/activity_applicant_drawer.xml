@@ -5,9 +5,9 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/family_member"
-            android:icon="@drawable/ic_group_black_24dp"
-            android:title="Family Member" />
+            android:id="@+id/guardian"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Guardian" />
 
     </group>
 
@@ -16,4 +16,11 @@
         android:id="@+id/profile"
         android:icon="@drawable/ic_person_black_24dp"
         android:title="Profile" />
+
+    <item
+        android:id="@+id/family_member"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="Family Member" />
+
+
 </menu>
