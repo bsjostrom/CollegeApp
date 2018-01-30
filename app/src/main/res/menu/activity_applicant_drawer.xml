@@ -17,10 +17,7 @@
         android:icon="@drawable/ic_person_black_24dp"
         android:title="Profile" />
 
-    <item
-        android:id="@+id/family_member"
-        android:icon="@drawable/ic_group_black_24dp"
-        android:title="Family Member" />
+
 
 
 </menu>
