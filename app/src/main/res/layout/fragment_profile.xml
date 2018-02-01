@@ -13,20 +13,29 @@
     <TextView
         android:id="@+id/first_name_textview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/last_name_textview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/high_school_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/personal_essay_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/edit_first_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="First Name"
         android:inputType="textPersonName" />
 
     <EditText
@@ -34,7 +43,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Last Name"
         android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/high_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="High School" />
+
+
+    <CheckBox
+        android:id="@+id/personal_essay_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Essay" />
+        // android:onClick="onCheckboxClicked"
+
 
     <Button
         android:id="@+id/profile_submit_button"

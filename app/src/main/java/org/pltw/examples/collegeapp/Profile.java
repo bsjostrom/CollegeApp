@@ -1,5 +1,7 @@
 package org.pltw.examples.collegeapp;
 
+import android.widget.CheckBox;
+
 /**
  * Created by 20sjobai on 12/20/2017.
  */
@@ -7,6 +9,7 @@ package org.pltw.examples.collegeapp;
 public class Profile {
     private String firstName;
     private String lastName;
+    private CheckBox PersonalEssayCheckbox;
 
     public String getFirstName() {
         return firstName;
@@ -23,6 +26,8 @@ public class Profile {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+    //public void setCheckbox(boolean checked) {this.checkbox = checked;}
 
     public Profile() {
         firstName = "Alan";
