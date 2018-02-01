@@ -27,8 +27,6 @@ public class Profile {
         this.lastName = lastName;
     }
 
-    //public void setCheckbox(boolean checked) {this.checkbox = checked;}
-
     public Profile() {
         firstName = "Alan";
         lastName = "Turing";

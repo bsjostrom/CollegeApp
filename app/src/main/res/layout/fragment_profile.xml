@@ -30,6 +30,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <TextView
+        android:id="@+id/sat_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/act_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <EditText
         android:id="@+id/edit_first_name"
         android:layout_width="match_parent"
@@ -61,6 +71,34 @@
         android:text="Personal Essay" />
         // android:onClick="onCheckboxClicked"
 
+
+    <CheckBox
+        android:id="@+id/sat_checkbox"
+        android:text="Taken SAT Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sat_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="SAT Score" />
+
+    <CheckBox
+        android:id="@+id/act_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taken ACT Test" />
+
+    <EditText
+        android:id="@+id/act_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ACT Score" />
 
     <Button
         android:id="@+id/profile_submit_button"
