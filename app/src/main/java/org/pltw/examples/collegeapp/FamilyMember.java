@@ -4,7 +4,7 @@ package org.pltw.examples.collegeapp;
  * Created by 20sjobai on 1/24/2018.
  */
 
-public abstract class FamilyMember {
+public abstract class FamilyMember extends ApplicantData {
 
     private String lastName;
     private String firstName;
