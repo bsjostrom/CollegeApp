@@ -13,20 +13,39 @@
     <TextView
         android:id="@+id/first_name_textview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/last_name_textview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/high_school_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/personal_essay_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/sat_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/act_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/edit_first_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="First Name"
         android:inputType="textPersonName" />
 
     <EditText
@@ -34,7 +53,52 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Last Name"
         android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/high_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="High School" />
+
+
+    <CheckBox
+        android:id="@+id/personal_essay_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Essay" />
+        // android:onClick="onCheckboxClicked"
+
+
+    <CheckBox
+        android:id="@+id/sat_checkbox"
+        android:text="Taken SAT Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sat_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="SAT Score" />
+
+    <CheckBox
+        android:id="@+id/act_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taken ACT Test" />
+
+    <EditText
+        android:id="@+id/act_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ACT Score" />
 
     <Button
         android:id="@+id/profile_submit_button"
